@@ -60,7 +60,7 @@ print(float_currency_text_representation)  # Output: "სამი მილი�
 - int_num_to_geo_text(number: int) -> str:
   - Converts an integer into its corresponding Georgian text representation.
 - float_num_to_geo_text(number: float) -> str:
-  - Converts an integer into its corresponding Georgian text representation (limited to two decimal places)
+  - Converts a float into its corresponding Georgian text representation (limited to two decimal places)
 - float_num_to_geo_currency(number: float) -> str:
   - Converts a float into its corresponding Georgian currency text representation.
 
