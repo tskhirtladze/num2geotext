@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from pathlib import Path
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = '''
 A Python package for converting numbers and floats (up to 15 digits) into Georgian text, 
 and for converting floats (up to 15 digits) into Georgian currency text representations.
