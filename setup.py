@@ -1,19 +1,15 @@
 from setuptools import setup, find_packages
+from pathlib import Path
 
 VERSION = '0.0.1'
 DESCRIPTION = '''
 A Python package for converting numbers and floats (up to 15 digits) into Georgian text, 
 and for converting floats (up to 15 digits) into Georgian currency text representations.
 '''
-LONG_DESCRIPTION = ('''
-num2geotext is a python package for converting numbers and floats into text, 
-and for converting floats into currency text representations. It supports a wide range of use cases, 
-including converting numerical values for text-based reports, financial applications, 
-educational tools, voice assistants, legal documents, and data validation. 
-This package can be utilized in generating invoices, converting currency amounts for receipts, 
-enhancing accessibility through text-to-speech systems, and providing better readability for 
-large numeric data.
-''')
+
+# Reading the README.md file for the long description
+this_directory = Path(__file__).parent
+LONG_DESCRIPTION = (this_directory / "README.md").read_text()
 
 # Setting up
 setup(
